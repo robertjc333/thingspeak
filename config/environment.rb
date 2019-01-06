@@ -19,3 +19,4 @@ end
 
 # Initialize the rails application
 Thingspeak::Application.initialize!
+require File.expand_path('../../config/initializers/abstract_mysql2_adapter', __FILE__)
