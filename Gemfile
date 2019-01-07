@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+
+gem 'authlogic','3.8.0'
 gem 'rails', '4.0.5'
 gem 'jquery-rails', '3.0.4'
 gem 'rails_autolink'
