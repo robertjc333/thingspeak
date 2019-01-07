@@ -419,6 +419,7 @@ DEPENDENCIES
   sass-rails (= 4.0.2)
   simplificator-rwebthumb!
   spork
+  sqlite3
   sqlite3-ruby (= 1.3.3)
   therubyracer
   turbolinks
