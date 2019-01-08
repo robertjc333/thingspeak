@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 
+gem 'activerecord-native_db_types_override'
 gem 'sqlite3'
 gem 'authlogic','3.8.0'
 gem 'rails', '4.0.5'
