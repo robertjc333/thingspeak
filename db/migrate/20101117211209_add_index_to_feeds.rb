@@ -3,6 +3,7 @@ class AddIndexToFeeds < ActiveRecord::Migration
 		add_index :feeds, :device_id
                 add_index :feeds, :channel_id
 		add_index :feeds, :created_at
+	  #adddd 
   end
 
   def self.down
