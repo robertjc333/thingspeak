@@ -4,7 +4,7 @@ class CreateWindows < ActiveRecord::Migration
       t.integer :channel_id
       t.integer :plugin_id
       t.integer :position
-      t.integer :id
+      #t.integer :id
         
       t.timestamps
     end
