@@ -12,6 +12,9 @@ class CreateChannels < ActiveRecord::Migration
       t.text :field6
       t.text :field7
       t.text :field8
+      t.boolean :public_flag
+      t.integer :last_entry_id
+      t.datetime :updated_at
 
       t.timestamps
     end
