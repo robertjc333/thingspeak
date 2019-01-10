@@ -2,6 +2,7 @@ class CreateFeeds < ActiveRecord::Migration
   def self.up
     create_table :feeds do |t|
       t.integer :device_id
+      t.integer :channel_id
       t.text :raw_data
       t.text :data1
       t.text :data2
