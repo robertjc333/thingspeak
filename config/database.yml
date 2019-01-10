@@ -45,5 +45,5 @@ production:
   reconnect: true
   database: db/production
   pool: 5
-  username: thing
+  username: ubuntu
   password: "speak"
