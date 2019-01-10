@@ -2,6 +2,7 @@ class CreateChannels < ActiveRecord::Migration
   def self.up
     create_table :channels do |t|
       t.integer :channel_id
+      t.integer :user_id
       t.text :raw_data
       t.text :field1
       t.text :field2
