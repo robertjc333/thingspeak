@@ -43,7 +43,7 @@ production:
   adapter: sqlite3
   encoding: utf8
   reconnect: true
-  database: db/production.sqlite3
+  database: db/production
   pool: 5
   username: thing
   password: "speak"
