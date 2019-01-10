@@ -17,7 +17,7 @@ class CreateChannels < ActiveRecord::Migration
       t.datetime :updated_at
       t.decimal :latitude
       t.decimal :longitude
-      t.string :string
+      t.string :elevation
       
       t.timestamps
     end
