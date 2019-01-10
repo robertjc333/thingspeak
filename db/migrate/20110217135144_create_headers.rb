@@ -3,6 +3,7 @@ class CreateHeaders < ActiveRecord::Migration
     create_table :headers do |t|
       t.string :name
       t.string :value
+      t.integer :thinghttp_id
 
       t.timestamps
     end
