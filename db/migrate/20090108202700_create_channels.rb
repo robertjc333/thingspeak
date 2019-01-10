@@ -15,7 +15,10 @@ class CreateChannels < ActiveRecord::Migration
       t.boolean :public_flag
       t.integer :last_entry_id
       t.datetime :updated_at
-
+      t.decimal :latitude
+		  t.decimal :longitude
+		  t.string :string
+      
       t.timestamps
     end
   end
